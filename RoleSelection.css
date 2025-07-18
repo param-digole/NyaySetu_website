@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #151226;
+  color: #F5EBDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1604514815850-8e244fc1c60b');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(21, 18, 38, 0.85);
+  border: 5px solid #A67C52;
+  border-radius: 25px;
+  padding: 40px 30px;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 2px solid #F5EBDD;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #F5EBDD;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 30px 0 20px;
+  color: #F5EBDD;
+}
+
+.roles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.role {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.role:hover {
+  transform: scale(1.1);
+}
+
+.role img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.role span {
+  display: block;
+  font-weight: bold;
+  color: #F5EBDD;
+}
